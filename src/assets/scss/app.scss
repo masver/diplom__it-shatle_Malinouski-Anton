@@ -1,7 +1,22 @@
+@import './main/reset.scss';
+
 * {
     box-sizing: border-box;
 }
 
 html {
     font-family: 'Gothic A1', sans-serif;
+    background: #FFFFFF;
+}
+
+.container {
+    max-width: 1167px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    max-width: 1182px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
