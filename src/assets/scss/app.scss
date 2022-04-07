@@ -10,13 +10,17 @@ html {
 }
 
 .container {
-    max-width: 1167px;
+    max-width: 1470px;
     margin: 0 auto;
     padding: 0 15px;
 }
 
 .header {
-    max-width: 1182px;
+    max-width: 11672px;
     margin: 0 auto;
     padding: 0 15px;
 }
+
+
+
+@import './components/header.scss'
