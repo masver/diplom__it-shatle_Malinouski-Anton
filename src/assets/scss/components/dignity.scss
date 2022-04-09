@@ -1,0 +1,33 @@
+.dignity-wrap {
+    display: flex;
+    margin-top: 159px;
+}
+
+.dignity__element {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dignity__item {
+    margin-top: 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+}
+
+.dignity__text {
+    margin-top: 17px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #6B6B6B;
+
+}

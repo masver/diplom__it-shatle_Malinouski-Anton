@@ -4,4 +4,5 @@ mixin grid(args={})
         span.grid-container__h2=args.bold
         span.grid-container__h3=args.text
 mixin grid_two(args={})
-    img(src=args.img, alt="grid").grid-container__img
+    div.grid-container__wrapper
+        img(src=args.img, alt="grid").grid-container__img
