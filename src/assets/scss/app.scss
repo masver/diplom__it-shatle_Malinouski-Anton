@@ -15,12 +15,10 @@ html {
     padding: 0 15px;
 }
 
-.header {
-    max-width: 11672px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
+    
 
 
 
-@import './components/header.scss'
+@import './components/header.scss';
+@import './components/tablet.scss';
+@import './components/grid-app.scss';

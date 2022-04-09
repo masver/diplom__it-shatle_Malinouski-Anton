@@ -5,10 +5,10 @@
 .header-block {
     display: flex;
     overflow: auto;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     //width: 100%;
-    padding: 29px 0 0 0;
+    padding: 29px 0 0 129px;
 }
 
 .header-block__menu {
@@ -39,7 +39,7 @@
     align-items: flex-start;
     font-family: 'Gothic A1', sans-serif;
     font-weight: 400;
-    width: 76%;
+    width: 81%;
     padding: 0px 0 85px 0;
     z-index: 1;
 }
@@ -60,6 +60,6 @@
 }
 
 .header-contains__img {
-    padding: 48px 0 0 505px;
+    padding: 48px 0 0 654px;
     z-index: 0;
 }
