@@ -1,15 +1,41 @@
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
-    padding: 0 302px 0 274px; 
+    padding: 0 0px 0 50px; 
 }
 
 .grid-container__item {
-    text-align: center;
+    display: flex;
+    max-width: 310px;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 0 auto;
+
 }
 
-.grid-container__h1 {}
+.grid-container__h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
 
-.grid-container__h2 {}
+color: #A8A8A8;
+}
 
-.grid-container__h3 {}
+.grid-container__h2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.grid-container__h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #6B6B6B; 
+}
