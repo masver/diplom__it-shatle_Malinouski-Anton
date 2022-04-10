@@ -1,3 +1,7 @@
+.grid {
+    margin-top: 50px;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
@@ -41,4 +45,26 @@
     font-size: 16px;
     line-height: 30px;
     color: #6B6B6B; 
+}
+
+.grid-container__img {
+    object-fit: cover;
+    max-width: 80%;
+}
+
+@media (max-width: 991.75px){
+    .container {
+        max-width: 992px;
+    }
+
+    .grid-container {
+        justify-content: center;
+    }
+
+    .grid-container__img {
+        width: 80%;
+    }
+
+
+
 }

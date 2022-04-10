@@ -31,5 +31,28 @@
 }
 
 .tablet-block__img {
+    object-fit: cover;
+    list-style: none;
+    max-width: 100%;
+}
 
+@media (max-width:991.75px){
+    
+    .container {
+        max-width: 992px;
+    }
+    .tablet-block {
+        padding: 51px 0px 0 0px;
+    }
+
+    .tablet-block__picture {
+        object-fit: cover;
+        list-style: none;
+    }
+
+    .tablet-block__img {
+        object-fit: cover;
+        list-style: none;
+        max-width: 100%;
+    }
 }

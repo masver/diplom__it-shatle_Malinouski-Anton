@@ -25,3 +25,10 @@ html {
 @import './components/dignity.scss';
 @import './components/totals.scss';
 @import './components/recipes.scss';
+
+@media (max-width:991.75px){
+    .container {
+        max-width: 992px;
+        margin: 0 auto;
+    }
+}

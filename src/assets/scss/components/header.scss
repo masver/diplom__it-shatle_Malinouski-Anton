@@ -29,12 +29,15 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: relative;
     
 }
 
 .header-contains__text {
     display: flex;
     position: absolute;
+    top: 0;
+    left: 0;
     flex-direction: column;
     align-items: flex-start;
     font-family: 'Gothic A1', sans-serif;
@@ -62,4 +65,32 @@
 .header-contains__img {
     padding: 48px 0 0 654px;
     z-index: 0;
+}
+
+@media (max-width:991.75px){
+    .container {
+        max-width: 992px;
+    }
+
+    .header-block {
+        padding: 29px 0 0 100px;
+    }
+
+    .header-block__menu {
+        width: 60%;
+        padding: 0 0 0 40px;
+    }
+
+    .header-contains__img {
+        padding: 48px 0 0 0px;
+        object-fit: cover;
+        list-style: none;
+        
+    }
+
+    .header-contains__img-block {
+        object-fit: cover;
+        list-style: none;
+        width: 50%;
+    }
 }
