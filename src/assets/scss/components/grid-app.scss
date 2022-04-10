@@ -5,7 +5,8 @@
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
-    padding: 0 0px 0 0px; 
+    padding: 0 0px 0 0px;
+    justify-items: center;
 }
 
 .grid-container__item {
@@ -19,6 +20,7 @@
 
 .grid-container__wrapper {
     display: flex;
+    justify-content: center;
 }
 
 .grid-container__h1 {
@@ -62,7 +64,7 @@
     }
 
     .grid-container__img {
-        width: 80%;
+        width: 67%;
     }
 
 
