@@ -55,4 +55,26 @@
         list-style: none;
         max-width: 100%;
     }
+
+}
+
+@media (max-width:413.75px){
+    .container {
+        max-width: 414px;
+    }
+
+    .tablet-block {
+        padding: 30px 0 0 0;
+    }
+
+    .tablet-block__text {
+        font-size: 22px;
+        line-height: 35px;
+        color: #FFFFFF;
+        max-width: 60%;
+        margin-top: 4%;
+        margin-bottom: 3%;
+    }
+
+
 }
