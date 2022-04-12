@@ -1,0 +1,46 @@
+.slider {
+    margin-top: 100px;
+    z-index: 0;
+}
+
+.slider-item {
+    display: flex;
+    text-align: center;
+    padding: 0 316px 0 311px;
+    position: relative;
+    z-index: 1;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+}
+
+.slider-item__text {
+    margin-top: 40px;
+    position: relative;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+    color: #6B6B6B;
+    z-index: 3;
+
+    &:before {
+        display:flex;
+        position: absolute;
+        content: '';
+        background-repeat: no-repeat;
+        background-image: url('../../imgs/artboard.jpg');
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        top: -40px;
+        background: rgba(214, 214, 214, 1);
+        z-index: 4;
+        background-position: center;
+    }
+}
