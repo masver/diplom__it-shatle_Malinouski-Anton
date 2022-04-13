@@ -30,12 +30,14 @@
     text-align: center;
 }
 
-@media (max-width:413.75){
+@media (max-width:413.75px){
     .container {
         max-width: 414px;
     }
 
-    .totals__item{
+    
+
+    .totals__item {
         font-size: 38px;
         line-height: 60px;
     }
