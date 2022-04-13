@@ -31,3 +31,15 @@
     color: #6B6B6B;
 
 }
+
+@media (max-width:413.75px){
+    .container {
+        max-width: 414px;
+        margin: 0 auto;
+    }
+
+    .dignity-wrap {
+        display: block;
+    }
+
+}

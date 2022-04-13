@@ -198,7 +198,7 @@
     }
 
     .header-contains__img {
-        padding: 62px 0 0 75px;
+        padding: 112px 5px 15px 94px;
         object-fit: cover;
         list-style: none;
     }
@@ -216,7 +216,7 @@
         flex-direction:row;
         justify-content: space-around;
         position: absolute;
-        top: 6px;
+        top: 15px;
         left: 0px;
         width: 100%;
         padding: 0;
@@ -235,10 +235,10 @@
     }
 
     .header-contains__btn {
-        padding: 17px 33px 17px 33px;
+        padding: 17px 33px 16px 33px;
         font-size: 15px;
         line-height: 10px;
-        margin-top: 131px;
+        margin-top: 200px;
     }
 }
 }
