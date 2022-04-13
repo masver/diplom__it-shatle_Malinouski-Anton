@@ -35,11 +35,18 @@
         max-width: 414px;
     }
 
-    
+    .totals {
+        margin-top: 43px;
+    }
+
+    .totals-wrap {
+        display: block;
+    }
 
     .totals__item {
         font-size: 38px;
         line-height: 60px;
+        width: 100%;
     }
 
     .totals__text {
