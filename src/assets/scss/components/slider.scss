@@ -48,10 +48,15 @@
 }
 
 .slider-item__joshua {
-    
+
 }
 
 .slider-item__author {
 
 }
 
+@media (max-width:413.75px){
+    .slider-item {
+        padding: 0px 10px 0 10px;
+    }
+}
