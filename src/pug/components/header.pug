@@ -1,7 +1,8 @@
 section.header
     div.header-block
             img.header-block__logo(src="./assets/imgs/logo_richard.png", alt="logo")
-            ul.header-block__menu
+            span.close#burger-close
+            ul.header-block__menu.header__menu--close#menu
                 li
                     a(href="#") About
                 li
@@ -10,10 +11,11 @@ section.header
                     a(href="#") How to Use
                 li
                     a(href="#") Download
+            span.burger#burger-open
     .header-contains
         .header-contains__text
             span.header-contains__momentum Momentum
             span.header-contains__launch Launch your product - and savor the momentum.
             button.header-contains__btn Get the App
-        .header-contains__img
-            img.header-contains__img-block(src="./assets/imgs/prototype-section-one.svg", alt="prototype")
+    .header-contains__img
+        img.header-contains__img-block(src="./assets/imgs/prototype-section-one.svg", alt="prototype")

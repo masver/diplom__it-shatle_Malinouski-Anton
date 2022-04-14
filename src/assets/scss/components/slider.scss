@@ -34,13 +34,13 @@
         position: absolute;
         content: '';
         background-repeat: no-repeat;
-        background-image: url('../../imgs/artboard.jpg');
+        background-image: url('../imgs/artboard.jpg');
         display: inline-block;
         width: 20px;
         height: 20px;
         top: -40px;
         left: 50%;
-        background: rgba(214, 214, 214, 1);
+        //background: rgba(214, 214, 214, 1);
         z-index: 4;
         background-position: center;
     }
