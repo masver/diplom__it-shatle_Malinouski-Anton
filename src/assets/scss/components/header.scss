@@ -40,17 +40,18 @@
     right: 10px;
     position: relative;
     background: #f0f0f0;
-    z-index: 7;
+    z-index: 2;
 }
 
 .burger::before,
 .burger::after {
     position: absolute;
     left: 0;
-    right: 0px;
+    right: 0;
     content: '';
     height: 2px;
     background: #f0f0f0;
+    z-index: 2;
 }
 
 .burger::before {
@@ -63,18 +64,24 @@
 
 .close {
     display: none;
-    height: 2px;
+    height: 27px;
     width: 27px;
-    position: relative;
-    background: #f0f0f0;
     position: absolute;
     top: 30px;
-    right: 30px;
-    transform: rotate(45deg);
-    z-index: 6;
+    right: 20px;
+    z-index: 10;
 }
 
-.close::after {
+.close span {
+    background: #f0f0f0;
+    position: absolute;
+    height: 2px;
+    width: 27px;
+    transform: rotate(45deg);
+
+}
+
+.close span::after {
     content: '';
     position: absolute;
     height: 2px;
@@ -196,16 +203,14 @@
         bottom: 0;
         right: 0;
         background-color: rgb(0, 0, 0);
-        //width: 60%;
-        //padding: 0 0 0 40px;
-        z-index: 2;
         padding: 100px 20px;
         width: 100%;
         transform: translateX(0%);
         transition: transform 0.8s;
+        z-index: 5;
     }
 
-    .header-block__menu.header__menu--close {
+    .header-block__menu.header-block__menu--close {
         transform: translateX(100%);
     }
 
@@ -217,8 +222,6 @@
     .close,
     .burger {
         display: block;
-        z-index: 1;
-
     }
 
     .header-contains__img {
@@ -276,7 +279,6 @@
         width: 100%;
     }
 
-    .close,
     .burger {
         display:block;
     }
