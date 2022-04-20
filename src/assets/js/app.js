@@ -1,4 +1,3 @@
-
 const menu = document.getElementById('menu');
 const open = document.getElementById('open');
 const close = document.getElementById('close');
