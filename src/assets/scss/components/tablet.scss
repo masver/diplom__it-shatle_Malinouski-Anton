@@ -30,6 +30,11 @@
     margin-bottom: 3%;
 }
 
+.tablet-block__picture {
+    display: flex;
+    justify-content: center;
+}
+
 .tablet-block__img {
     object-fit: cover;
     list-style: none;
