@@ -81,7 +81,9 @@
     }
 
     .grid-container__item {
-        padding: 15px 17px 10px 10px;
+        padding: 15px 1px 10px 10px;
+        text-align: center;
+        justify-content: center;
     }
     
     .grid-container__wrapper {
