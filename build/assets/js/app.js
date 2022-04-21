@@ -4,9 +4,9 @@ const close = document.getElementById('close');
 
 window.ontouchstart = function(event){
     if(event.targert == close){
-        menu.classList.add('header-block__menu--close');
+        menu.classList.add('header__menu--close');
     }
     if(event.target == open){
-        menu.classList.remove('header-block__menu--close');
+        menu.classList.remove('header__menu--close');
     }
 }
