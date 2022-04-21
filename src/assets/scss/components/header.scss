@@ -35,8 +35,8 @@
 
 .burger {
     display: none;
-    width: 27px;
-    height: 27px;
+    width: 30px;
+    height: 30px;
     position: relative;
 }
 
@@ -200,7 +200,7 @@
     }
 
     .header-block {
-        padding: 29px 0 0 100px;
+        padding: 29px 46px 0 100px;
     }
 
     .header__menu {
@@ -223,7 +223,7 @@
 
     .header__menu li a {
         display: block;
-        margin: 0 0 30px;
+        margin: 25px 0 30px;
     }
 
     .close,
@@ -278,7 +278,7 @@
 
     .header__menu {
         flex-direction: column;
-        width: 32%;
+        width: 100%;
         padding: 0 1px 0 4px;
     }
 
@@ -289,6 +289,11 @@
 
     .burger {
         display:block;
+        right: 20px;
+    }
+
+    .burger span {
+        top: 10px;
     }
 
     .header-contains__img {
